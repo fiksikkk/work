@@ -256,3 +256,66 @@ body {
     white-space: nowrap;
   }
 }
+
+.tech-intro__logo-container {
+  min-width: 598px;
+  height: 592px;
+  align-items: center;
+}
+
+.tech-intro__logo-container::before,
+.tech-intro__logo-container::after {
+  background: #61dafb;
+}
+
+icon-card__item {
+  background-color: var(--color-neutral-gray-50);
+  transition: background-color 0.2s ease;
+}
+
+icon-card__item:hover {
+  background-color: var(--color-neutral-gray-100);
+}
+
+.tech-reactnative-started .icon-card__icon {
+  color: var(--color-neutral-gray-400);
+}
+
+.tech-reactnative-started:hover .icon-card__icon {
+  color: var(--toggle-dark-200);
+}
+
+.tech-ror-why .icon-card__item:last-child {
+  text-align: left;
+  background-color: -var(--color-neutral-gray-800);
+}
+
+.reactnative-cta_1.section-cta__container {
+  background-color: var(--bg-orange-400);
+}
+
+.reactnative-cta_2 .section-cta__content {
+  align-items: center;
+  text-align: center;
+}
+
+.clients-industry__item:hover .clients-industry__icon {
+  color: var(--color-brand-orange-400);
+}
+
+.footer {
+  margin: 0 30px 0;
+}
+
+.elementor-element-cd4d3eb {
+  border-radius: 32px;
+}
+
+.elementor-field-textual {
+  background-color: var(--bg-dark-100);
+}
+
+.elementor-element-45bbae1 {
+  max-width: 80%;
+  align-self: center;
+}
